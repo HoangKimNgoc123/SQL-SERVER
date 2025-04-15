@@ -10,6 +10,7 @@
   - Tên môn học
   - Giờ vào lớp
   - Giờ ra lớp
+    
 ## 🧭 Các bước thực hiện
 1. Phân tích đề bài:
    - Thời khóa biểu (TKB) bao gồm hệ thống thông tin giáo viên (-> bảng giaoVien), thông tin lớp học (-> bảng lopHoc), thông tin
