@@ -51,7 +51,7 @@ DEADLINE: 23H59:59 NGÀY 23/04/2025
     
 ## 🧭 Các bước thực hiện
 1. 🎯**Phân tích đề bài** :
-   Để xây dựng hệ thống chuyển đổi giọng nói thành văn bản, bạn cần các bảng sau:
+   Để xây dựng hệ thống chuyển đổi giọng nói thành văn bản, cần các bảng sau:
    - Ngonngu: Lưu thông tin về các ngôn ngữ hỗ trợ, giúp xác định ngôn ngữ của âm thanh và văn bản.
    - NguoiDUng: Lưu thông tin người dùng, giúp quản lý tài khoản và các hoạt động của người dùng trong hệ thống.
    - Job_Xu_ly: Lưu các công việc xử lý âm thanh, giúp quản lý thông tin công việc như thời gian, ngôn ngữ, trạng thái.
@@ -145,3 +145,12 @@ DEADLINE: 23H59:59 NGÀY 23/04/2025
    + Giảm tải tính toán trên cơ sở dữ liệu khi truy vấn sau này, giúp hệ thống chạy nhanh hơn.
 
    ![image](https://github.com/user-attachments/assets/9c21239b-5398-4532-8e7a-c8d2db32cc09)
+5. Kết luận về Trigger
+   - Lợi ích mà trigger mang lại:
+   + Tính toán tự động: Trigger giúp tự động tính toán và cập nhật trường Word_Count mỗi khi có thay đổi
+   trong cột Toanvanban. Điều này giúp tiết kiệm thời gian xử lý khi truy vấn sau này, vì không cần phải
+   tính toán lại số từ mỗi lần truy xuất dữ liệu.
+   + Dữ liệu luôn chính xác: Khi có thay đổi, trigger sẽ đảm bảo trường Word_Count luôn được cập nhật chính xác.
+   + Quản lý dữ liệu dễ dàng hơn: Trigger cũng giúp tự động ghi lại các lỗi vào bảng Log_LoiXuLy, giúp quản lý và theo dõi các lỗi dữ liệu (như rỗng hoặc vượt quá 10,000 từ).
+   + Với việc sử dụng trigger, không chỉ cải thiện hiệu suất mà còn đảm bảo tính toàn vẹn của dữ liệu trong hệ thống, giúp quản lý dễ dàng và hiệu quả hơn.
+
