@@ -41,19 +41,23 @@ Ghi chú: Giải thích tại sao lại có SQL như vậy.
 
      ![image](https://github.com/user-attachments/assets/048fff36-abde-40e5-9d87-70d3e94cf881)
 
-4. Nhập sql để tìm xem có những sv nào trùng hoàn toàn ngày/tháng/năm với em?
+3. Nhập sql để tìm xem có những sv nào trùng hoàn toàn ngày/tháng/năm với em?
 
      ![image](https://github.com/user-attachments/assets/4bd2ffbf-f74b-42c4-9a65-993089f5c890)
 
-5. nhập sql để tìm xem có những sv nào trùng ngày và tháng sinh với em?
+4. nhập sql để tìm xem có những sv nào trùng ngày và tháng sinh với em?
    
      ![image](https://github.com/user-attachments/assets/88116d9e-8ca9-4fdf-96e1-285cf68060c9)
 
-6. nhập sql để tìm xem có những sv nào trùng tháng và năm sinh với em?
+5. nhập sql để tìm xem có những sv nào trùng tháng và năm sinh với em?
 
      ![image](https://github.com/user-attachments/assets/11f82829-a415-4761-8b6b-6466d00e6b8c)
 
-7. nhập sql để tìm xem có những sv nào trùng tên với em?
+6.  nhập sql để tìm xem có những sv nào trùng họ và tên đệm với em.
+
+    ![image](https://github.com/user-attachments/assets/1e2cc27b-f25d-4e35-b4b9-f4ec361ba73b)
+
+7.  nhập sql để tìm xem có những sv nào trùng tên với em?
     
      ![image](https://github.com/user-attachments/assets/f2702318-5599-4b0d-8693-626a4cbbfa91)
 
@@ -62,5 +66,17 @@ Ghi chú: Giải thích tại sao lại có SQL như vậy.
      ![image](https://github.com/user-attachments/assets/a1275644-8fa4-42b0-a57e-f39e027f5418)
 
 9. BẢNG SV CÓ HƠN 9000 ROWS, HÃY LIỆT KÊ TẤT CẢ CÁC SV NGÀNH KMT, SẮP XẾP THEO TÊN VÀ HỌ ĐỆM, KIỂU TIẾNG  VIỆT, GIẢI THÍCH.
+    
+    ![image](https://github.com/user-attachments/assets/678f86d1-1a8c-45a8-84f6-389d0861a2b7)
+ 
+10. HÃY NHẬP SQL ĐỂ LIỆT KÊ CÁC SV NỮ NGÀNH KMT CÓ TRONG BẢNG SV (TRÌNH BÀY QUÁ TRÌNH SUY NGHĨ VÀ GIẢI NHỮNG VỨNG MẮC)
+    - Đầu tiên, cách xác định ngành KMT giống như câu 9.
+    - Tiếp đến, có thể thấy trong bảng sinh viên không có trường giới tính để xác định sinh viên nào là nữ.
+    - Luận ra sinh viên là nữ từ trường họ đệm có đệm là 'Thị' (độ chính xác cao vì hầu như không có nam sinh viên có tên đệm là  'Thị'
+    - Các cách như lọc theo tên thường thấy của nữ giới như 'Ngọc', 'Trang',... không đảm bảo vì nam cũng có thể tên như vậy nên không sử dụng
+    -> Cách liệt kê mang độ tin cậy cao nhất là lọc tên đệm có chữ 'Thị', tuy không tìm được hết nhưng đây là cách luận không có sự nhầm lẫn
+      ở trong kết quả in ra
 
-     ![image](https://github.com/user-attachments/assets/c0e0ca9d-1392-404c-bfbc-065091f53f07)
+     ![image](https://github.com/user-attachments/assets/b26c5e77-9723-4084-a0b7-862f4c84be88)
+
+      
